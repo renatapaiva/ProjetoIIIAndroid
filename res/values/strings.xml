@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProjetoAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="post">POST</string>
+    <string name="descricaoNome">Nome</string>
+ 
+    <string name="descricaoSenha">Senha</string>
+    <string name="ListarCadastrados">Cadastrados</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="carregando">Caregando Usuários</string><string name="inserindo_usuario">Inserindo Usuario</string><string name="descricao">Projeto Dispositivos Móveis!</string>
+    
+    
+
+</resources>

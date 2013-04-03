@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textPrimeiraLinha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/descricao"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textPrimeiraLinha"
+        android:layout_below="@+id/textPrimeiraLinha"
+        android:layout_marginTop="25dp"
+        android:text="@string/descricaoNome" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewNome"
+        android:layout_alignBottom="@+id/textViewNome"
+        android:layout_alignRight="@+id/textPrimeiraLinha"
+        android:layout_marginRight="22dp"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewNome"
+        android:layout_below="@+id/editTextNome"
+        android:layout_marginTop="35dp"
+        android:text="@string/descricaoSenha" />
+
+    <EditText
+        android:id="@+id/editTextSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewSenha"
+        android:layout_alignBottom="@+id/textViewSenha"
+        android:layout_alignRight="@+id/editTextNome"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonCadastrarPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextSenha"
+        android:layout_below="@+id/editTextSenha"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="41dp"
+        android:text="@string/cadastrar" />
+    
+</RelativeLayout>
